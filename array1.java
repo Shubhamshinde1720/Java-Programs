@@ -1,15 +1,20 @@
-class  Array1{
-    public static void main(String args[]){
-        int arr[]={11,22,33,44,55,66,77,88,99};
+class Array1{
+ 
+public static void main(String args[]){
 
-        System.out.println("Printing array by for loop");
+int jearsyno[];
+jearsyno=new int[5];
 
-        for(int i=0; i<arr.length; i++ ){
-            System.out.println(arr[i]);
-        }
+jearsyno[0]=17;
+jearsyno[1]=11;
+jearsyno[2]=18;
+jearsyno[3]=93;
+jearsyno[4]=45;
 
-        for(int key:arr){
-            System.out.println(key);
-        }
-    }
+
+for(int i=0; i<jearsyno.length; i++){
+ 
+System.out.println("jearsyno :"+jearsyno[i]);
+}
+}
 }
